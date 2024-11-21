@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kanit:wght@100;400&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+}
+.card{
+    font-family: "Kanit", sans-serif;
+    font-weight: 20;
+    padding:  05px 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: black;
+    padding: 15px 15px;
+}
+#btn{
+    padding: 10px;
+    font-family: "Kanit", sans-serif;
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+}
+#btn:hover{
+    background-color: grey;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.buttons{
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.buttons:hover{
+    background-color: grey;
+    cursor: pointer;
+}
